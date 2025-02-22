@@ -45,11 +45,6 @@ $ yarn build
 ```shell
 $ yarn start
 ```
-OR
-
-```shell
-$ pm2 start process.json
-```
 ### DONE!!!!!!!
 
 ## Default Account and Password
