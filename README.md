@@ -41,6 +41,14 @@ Copy [.env.example](.env.example) to .env and update config
 ```shell
 $ yarn build
 ```
+some config items have to be changed:
+
+-   `STORAGE_DIR` (store the data) change to your directory, make sure have read/write permissions.
+-   `DOWNLOAD_URL` replace `127.0.0.1` to your machine ip. example: http://dl.app/download
+-   `DATA_DIR` (caclulate diff) change to your directory,make sure have read/write permissions.
+-   `TOKEN_SECRET` get the random string from `https://www.grc.com/passwords.htm`, and replace the value `INSERT_RANDOM_TOKEN_KEY`.
+-   `db` config: `RDS_USERNAME`, `RDS_PASSWORD`, `RDS_DATABASE`, `RDS_HOST`, `RDS_PORT` change to your own
+
 #### Start Service
 ```shell
 $ yarn start
